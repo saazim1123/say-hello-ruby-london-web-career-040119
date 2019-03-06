@@ -1,11 +1,10 @@
 # Build your say_hello method here
 
-def say_hello(name="Ruby Programmer!")
-  puts "Hello " +name
+def greeting(name = "Ruby Programmer")
+  puts "Hello, #{name}!"
 end
 
-puts say_hello("Joshim!")
-puts say_hello
+
 =begin
 
 You will build a method called `say_hello`. This method should accept the argument of a person's name. It then should print `"Hello "` with the name followed by an exclamation point (don't forget that space after the "Hello"). For instance:
