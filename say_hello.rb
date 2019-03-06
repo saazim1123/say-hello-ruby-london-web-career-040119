@@ -4,6 +4,8 @@ def greeting(name = "Ruby Programmer")
   puts "Hello, #{name}!"
 end
 
+puts greeting("Joshim")
+puts greeting
 
 =begin
 
